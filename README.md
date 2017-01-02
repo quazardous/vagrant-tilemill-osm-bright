@@ -25,7 +25,11 @@ When running the script, you can attach the download address of an OSM Planet fi
 ./load-osm-data.sh https://s3.amazonaws.com/metro-extracts.mapzen.com/leipzig_germany.osm.pbf
 ```
 
-or put them in the `osm` folder.
+or put them in the `osm` folder and run:
+
+```bash
+./load-osm-data.sh
+```
 
 *NB*: `imposm` could ask you a password, just type what you want.
 
