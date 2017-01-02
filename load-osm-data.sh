@@ -50,6 +50,7 @@ do
 		--read --write --optimize --deploy-production-tables $f
 	then
 		touch $f.ok
+		rm -f *.cache
 	fi
 done
 )

@@ -55,4 +55,4 @@ su - postgres -c "psql -d osm -c 'CREATE EXTENSION postgis;'"
 ln -s -f /vagrant/config/tilemill.config /etc/tilemill/tilemill.config
 
 # start tilemill as system service
-service tilemill start
+start tilemill

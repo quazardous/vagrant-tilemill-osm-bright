@@ -37,3 +37,14 @@ Example Download Sources:
 Depending on the size of the planet file, the download/import will take
 some time.
 
+## Get Re-started
+
+If you reboot your box you'll need to restart some services:
+
+From host:
+    vagrant ssh
+
+Then in the VM:
+    sudo service postgresql start
+    sudo start tilemill
+
