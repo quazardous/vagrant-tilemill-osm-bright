@@ -27,7 +27,7 @@ When running the script, you can attach the download address of an OSM Planet fi
 
 or put them in the `osm` folder.
 
-*NB*: `imposm` could ask you a password, just type what yoiu want.
+*NB*: `imposm` could ask you a password, just type what you want.
 
 Example Download Sources:
 
@@ -42,9 +42,11 @@ some time.
 If you reboot your box you'll need to restart some services:
 
 From host:
+
     vagrant ssh
 
 Then in the VM:
+
     sudo service postgresql start
     sudo start tilemill
 
